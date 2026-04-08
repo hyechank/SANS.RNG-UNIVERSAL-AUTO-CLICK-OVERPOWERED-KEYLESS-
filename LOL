@@ -14,7 +14,7 @@ local RunService = game:GetService("RunService")
 
 Tab:CreateToggle({
    Name = "START AUTOFARM",
-   CurrentValue = true,
+   CurrentValue = false,
    Callback = function(Value)
       AutoClick = Value
    end
